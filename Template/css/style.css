@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    height: 65px;
+}
+
+td:first-child {
+    width: 120px;
+    background-color: #f5f5f5;
+}
+
+.plan {
+    background-color: #a8df68;
+}
+
+.angles {
+    background-color: #d88bd4;
+}
+
+.php {
+    background-color: #ffe500;
+}
+
+.seg {
+    background-color: #f3dfc9;
+}
+
+.bd {
+    background-color: #f47b68;
+}
+
+.projecte {
+    background-color: #83bce8;
+}
+
+.tutoria {
+    background-color: #eeeeee;
+}
+
+.descans {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
