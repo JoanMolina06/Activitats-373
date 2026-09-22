@@ -6,12 +6,6 @@
     list-style: none;
 }
 
-table {
-    margin: 30px auto;
-    border-collapse: collapse;
-    width: 80%;
-    background-color: white;
-}
 
 th {
     background-color: #333;
@@ -51,8 +45,12 @@ td:first-child {
     background-color: #f47b68;
 }
 
-.projecte {
+.proj {
     background-color: #83bce8;
+}
+
+.web {
+    background-color: #e5b012;
 }
 
 .tutoria {
