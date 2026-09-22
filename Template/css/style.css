@@ -20,11 +20,6 @@ td {
     height: 65px;
 }
 
-td:first-child {
-    width: 120px;
-    background-color: #f5f5f5;
-}
-
 .plan {
     background-color: #a8df68;
 }
