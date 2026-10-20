@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "cabecera cabecera"
+        "lista elements"
+        "titulo titulo"
+        "botones botones-der"
+        "tabla aside"
+        "readme aside"
+        "footer footer";
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.pagina > * {
+    padding: 10px;
+}
+
+.cabecera {
+    grid-area: cabecera;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.cabecera img {
+    width: 40px;
+    height: 40px;
+}
+
+.lista {
+    grid-area: lista;
+    background-color: lightblue;
+}
+
+.lista ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.lista a {
+    color: black;
+    text-decoration: none;
+}
+
+.elements {
+    grid-area: elements;
+    background-color: lightgreen;
+    text-align: right;
+}
+
+.elements input {
+    padding: 5px;
+}
+
+.titulo {
+    grid-area: titulo;
+    background-color: lightyellow;
+}
+
+.botones {
+    grid-area: botones;
+    background-color: plum;
+}
+
+.botones-der {
+    grid-area: botones-der;
+    background-color: lightsalmon;
+    text-align: right;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.primario {
+    background-color: green;
+    color: white;
+}
+
+.tabla {
+    grid-area: tabla;
+    background-color: lightcyan;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+.readme {
+    grid-area: readme;
+    background-color: lightpink;
+}
+
+.readme h2 {
+    margin-bottom: 10px;
+}
+
+.readme p {
+    margin-bottom: 10px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: lightgray;
+}
+
+.aside h3 {
+    margin-bottom: 5px;
+}
+
+.aside ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+}
+
+.footer nav {
+    display: flex;
+    gap: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Repositori - Exercici CSS Grid</title>
+  <meta name="description" content="Recull d'exercicis">
+  <meta name="author" content="Joan">
+  <link rel="stylesheet" href="../css/grid.css">
+</head>
+<body>
+
+  <div class="pagina">
+
+    <header class="cabecera">
+      <img src="https://via.placeholder.com/40" alt="Foto de perfil">
+      <span class="usuario">joan-asix</span>
+      <span class="titulo-repo">projecte-asix</span>
+    </header>
+
+    <nav class="lista" aria-label="Seccions del repositori">
+      <ul>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">Issues</a></li>
+        <li><a href="#">Pull requests</a></li>
+        <li><a href="#">Actions</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Wiki</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Insights</a></li>
+      </ul>
+    </nav>
+
+    <div class="elements">
+      <input type="search" placeholder="Cerca al repositori..." aria-label="Cerca">
+    </div>
+
+    <section class="titulo">
+      <h1>projecte-asix</h1>
+      <p>Repositori de pràctiques del cicle formatiu ASIX.</p>
+    </section>
+
+    <div class="botones">
+      <button>main</button>
+      <button>Branches</button>
+      <button>Tags</button>
+    </div>
+
+    <div class="botones-der">
+      <button>Watch</button>
+      <button>Fork</button>
+      <button class="primario">Star</button>
+    </div>
+
+    <section class="tabla">
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Últim commit</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>css/</td><td>Afegeix estils del grid</td><td>fa 2 dies</td></tr>
+          <tr><td>img/</td><td>Puja imatges</td><td>fa 3 dies</td></tr>
+          <tr><td>index.html</td><td>Estructura inicial</td><td>fa 1 setmana</td></tr>
+          <tr><td>README.md</td><td>Actualitza descripció</td><td>fa 1 setmana</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <article class="readme">
+      <h2>README.md</h2>
+      <p>Aquest projecte és un exercici de <code>CSS Grid</code> que reprodueix la maquetació d'una pàgina de repositori.</p>
+      <p>Cada zona de la pàgina (capçalera, llista, taula, readme, aside i footer) s'ubica amb <code>grid-template-areas</code>.</p>
+    </article>
+
+    <aside class="aside">
+      <h3>About</h3>
+      <ul>
+        <li>Exercici de HTML i CSS Grid</li>
+        <li>Cicle ASIX</li>
+      </ul>
+      <h3>Languages</h3>
+      <ul>
+        <li>HTML 60%</li>
+        <li>CSS 40%</li>
+      </ul>
+    </aside>
+
+    <footer class="footer">
+      <span>&copy; 2026 projecte-asix</span>
+      <nav>
+        <a href="#">Termes</a>
+        <a href="#">Privacitat</a>
+        <a href="#">Contacte</a>
+      </nav>
+    </footer>
+
+  </div>
+
+</body>
+</html>
