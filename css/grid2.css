@@ -1,0 +1,29 @@
+.pagina {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 300px;
+    grid-template-areas:
+        "a a . b"
+        "c d d d";
+    gap: 10px;
+}
+
+.a { grid-area: a; background: #444; }
+.b { grid-area: b; background: #444; }
+.c { grid-area: c; background: #444; }
+
+.d {
+    grid-area: d;
+    background: #444;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "e f f"
+        "e . g";
+    gap: 10px;
+}
+
+.e { grid-area: e; background: #ccc; }
+.f { grid-area: f; background: #ccc; }
+.g { grid-area: g; background: #ccc; }
