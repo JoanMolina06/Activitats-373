@@ -59,15 +59,6 @@ body {
     text-decoration: none;
 }
 
-.elements {
-    grid-area: elements;
-    background-color: lightgreen;
-    text-align: right;
-}
-
-.elements input {
-    padding: 5px;
-}
 
 .titulo {
     grid-area: titulo;
